@@ -72,7 +72,4 @@ if __name__ == "__main__":
                 # should figure this out
                 pass
 
-        sys.exit()
-
-
     f.close()

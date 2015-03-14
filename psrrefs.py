@@ -60,9 +60,7 @@ if __name__ == "__main__":
 
             # change the bibcode to psrrefs format
 
-            bibcode = create_psrrefs_bibcode(paper)
-
-            paper.bibcode = bibcode
+            paper.bibcode = create_psrrefs_bibcode(paper)
 
             try:
                 f.write(paper.bibtex.encode('utf-8'))
